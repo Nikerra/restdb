@@ -192,7 +192,7 @@ func FindUserID(ID int) User {
 			log.Println(err)
 			return User{}
 		}
-		u := User{c1, c2, c3, c4, c5, c6}
+		u = User{c1, c2, c3, c4, c5, c6}
 		log.Println("Found user:", u)
 	}
 	return u
@@ -226,7 +226,7 @@ func FindUserUsername(username string) User {
 			log.Println(err)
 			return User{}
 		}
-		u := User{c1, c2, c3, c4, c5, c6}
+		u = User{c1, c2, c3, c4, c5, c6}
 		log.Println("Found user:", u)
 	}
 	return u
